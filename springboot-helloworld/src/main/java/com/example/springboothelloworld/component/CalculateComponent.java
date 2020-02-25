@@ -7,4 +7,8 @@ public class CalculateComponent {
     public int add(int x, int y) {
         return x + y;
     }
+
+    public void minus() {
+
+    }
 }
