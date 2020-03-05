@@ -39,7 +39,7 @@ Web系统框架，是东北林业大学软件工程专业第6学期的一门专�
  
 #### Example Collections
  - /springboot-helloworld，基于Junit5/Spring-testing/Slf4j/Lombok等基础框架的springboot项目示例  
- - /jpa-springboot-examples，基于JPA/spring-data-jpa等ORM框架的项目示例  
+ - /springboot-jpa-examples，基于JPA/spring-data-jpa等ORM框架的项目示例  
  
 ### Program Details
  - 参考百度网盘
