@@ -1,4 +1,4 @@
-package com.example.springbootjpaexamples.example05.entity;
+package com.example.springbootjpaexamples.example05.baserepository.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
