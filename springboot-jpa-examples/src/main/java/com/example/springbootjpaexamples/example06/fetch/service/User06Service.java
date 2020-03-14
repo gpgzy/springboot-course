@@ -1,9 +1,9 @@
-package com.example.springbootjpaexamples.example06.fatch.service;
+package com.example.springbootjpaexamples.example06.fetch.service;
 
-import com.example.springbootjpaexamples.example06.fatch.entity.Address06;
-import com.example.springbootjpaexamples.example06.fatch.entity.User06;
-import com.example.springbootjpaexamples.example06.fatch.repository.Address06Repository;
-import com.example.springbootjpaexamples.example06.fatch.repository.User06Repository;
+import com.example.springbootjpaexamples.example06.fetch.entity.Address06;
+import com.example.springbootjpaexamples.example06.fetch.entity.User06;
+import com.example.springbootjpaexamples.example06.fetch.repository.Address06Repository;
+import com.example.springbootjpaexamples.example06.fetch.repository.User06Repository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

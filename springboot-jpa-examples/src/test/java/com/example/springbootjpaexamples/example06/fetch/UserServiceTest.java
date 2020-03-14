@@ -1,8 +1,8 @@
-package com.example.springbootjpaexamples.example06.fatch;
+package com.example.springbootjpaexamples.example06.fetch;
 
-import com.example.springbootjpaexamples.example06.fatch.entity.Address06;
-import com.example.springbootjpaexamples.example06.fatch.entity.User06;
-import com.example.springbootjpaexamples.example06.fatch.service.User06Service;
+import com.example.springbootjpaexamples.example06.fetch.entity.Address06;
+import com.example.springbootjpaexamples.example06.fetch.entity.User06;
+import com.example.springbootjpaexamples.example06.fetch.service.User06Service;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,12 +32,12 @@ public class UserServiceTest {
     }
 
     @Test
-    public void test_fatch() {
+    public void test_fetch() {
         log.debug(user06Service.getAddress(1).getUser().getName());
     }
 
     @Test
-    public void test_fatch2() {
+    public void test_fetch2() {
         user06Service.getUser(1)
                 .getAddresses()
                 .forEach(a -> log.debug(a.getDetail()));

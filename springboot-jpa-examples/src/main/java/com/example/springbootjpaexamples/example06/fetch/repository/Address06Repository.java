@@ -1,6 +1,6 @@
-package com.example.springbootjpaexamples.example06.fatch.repository;
+package com.example.springbootjpaexamples.example06.fetch.repository;
 
-import com.example.springbootjpaexamples.example06.fatch.entity.Address06;
+import com.example.springbootjpaexamples.example06.fetch.entity.Address06;
 import com.example.springbootjpaexamples.repository.BaseRepository;
 import org.springframework.stereotype.Repository;
 
