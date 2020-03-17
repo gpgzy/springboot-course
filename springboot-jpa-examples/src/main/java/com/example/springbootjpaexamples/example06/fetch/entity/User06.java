@@ -1,4 +1,4 @@
-package com.example.springbootjpaexamples.example06.fatch.entity;
+package com.example.springbootjpaexamples.example06.fetch.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
