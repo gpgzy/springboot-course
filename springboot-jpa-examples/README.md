@@ -1,4 +1,8 @@
 # JPA
+### 2020.03.14 
+乐观锁  
+悲观锁  
+
 ### 2020.03.13 
 JpaReposityory  
 自定义BaseRepository  
