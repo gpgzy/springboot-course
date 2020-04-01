@@ -24,10 +24,10 @@ public class Example03Controller {
     public void getTypeMismatchException(@PathVariable int uid) {
     }
 
-    @GetMapping("users/{onwer}")
+    @GetMapping("users/{owner}")
     public void getViolationException(
             @Size(min = 2, max = 6, message = "用户信息错误")
-            @PathVariable String onwer) {
+            @PathVariable String owner) {
     }
 
 
