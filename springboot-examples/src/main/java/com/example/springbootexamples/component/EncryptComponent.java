@@ -1,4 +1,4 @@
-package com.example.springbootspringmvcexamples.example05.textencryptor.component;
+package com.example.springbootexamples.component;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ResponseStatusException;
 
 @Component
-public class EncryptComponent05 {
+public class EncryptComponent {
     @Autowired
     private ObjectMapper objectMapper;
     @Value("${my.secretkey}")
@@ -59,6 +59,4 @@ public class EncryptComponent05 {
             throw new ResponseStatusException(HttpStatus.FORBIDDEN, "无权限");
         }
     }
-
-
 }
