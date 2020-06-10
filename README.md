@@ -2,7 +2,9 @@
 #### Overview
 China, Northeast Forestry University, Software Engineering, Frameworks for Web Application, 2020
 
-Web系统框架，是东北林业大学软件工程专业第6学期的一门专业选修课。    
+Web系统框架，是东北林业大学软件工程专业第6学期的一门专业选修课。  
+主讲教师：王波老师
+  
 课程前部分，基于Springboot框架的后端微服务架构、设计思想与实现技术。  
 课程后部分，基于Vue框架的前端MVVM设计模式、组件化设计与单页面开发技术。
 课程的具体技术内容包括：
